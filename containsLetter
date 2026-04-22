@@ -1,0 +1,7 @@
+def containsLetter(p, c):
+    if c in p:
+        return True
+    return False
+
+print(containsLetter("hello", "o"))
+print(containsLetter("hello", "b"))
