@@ -1,0 +1,12 @@
+import string
+
+def isACorrectPanel(p):
+    x = p.replace(" ", "")
+    if len(p.split()) <= 3:
+        if x.isalpha():
+            return True
+    return False
+
+print(isACorrectPanel("hello how are you"))
+print(isACorrectPanel("hell@ g@@d bye"))
+print(isACorrectPanel("hello good bye"))
