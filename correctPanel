@@ -1,0 +1,7 @@
+def correctPanel(w, sol):
+    if w == sol:
+        return True
+    return False
+
+print(correctPanel("hello", "bye"))
+print(correctPanel("hello", "hello"))
