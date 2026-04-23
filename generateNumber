@@ -1,0 +1,9 @@
+import random
+
+def generateNumber():
+    number = random.randint(1, 5)
+    return number
+
+print(generateNumber())
+print(generateNumber())
+print(generateNumber())
